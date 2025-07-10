@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: const ImageGallery(),
-    );
-  }
-}
+// void main() {
+//   runApp(const MyApp());
+// }
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: const ImageGallery(),
+//     );
+//   }
+// }
 
 class ImageGallery extends StatefulWidget {
   const ImageGallery({super.key});
@@ -24,9 +24,9 @@ class ImageGallery extends StatefulWidget {
 
 class _ImageGalleryState extends State<ImageGallery> {
   final List<String> _images = [
-    'https:
+    //'https:
     'https://picsum.photos/200/301',
-    'https:
+    //'https:
     'https://picsum.photos/200/303',
   ];
 
